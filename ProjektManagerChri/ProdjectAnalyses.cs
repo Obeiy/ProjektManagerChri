@@ -1,19 +1,21 @@
 ﻿namespace ProjektManagerChri;
 
 public class ProdjectAnalyses : Hub
-{
-    void ProjectAnalyses()
-{
+{  
+    
     // Project Analyses var
-    string prodHubChoice;
-    int question1;
-    int question2;
-    int question3;
-    int question4;
-    int question5;
-    string prodBackChoice;
-    string proConclution = "";
-    bool proAlreadyDone = false;
+   static string prodHubChoice;
+    static int question1;
+    static int question2;
+   static  int question3;
+   static  int question4;
+   static  int question5;
+  static   string prodBackChoice;
+   static  string proConclution = "";
+   static  bool proAlreadyDone = false;
+   public static void ProjectAnalysesFunktion()
+{
+
 
     
     
@@ -138,7 +140,7 @@ public class ProdjectAnalyses : Hub
                     prodBackChoice = Console.ReadLine();
                     if (prodBackChoice == "1")
                     {
-                        ProjectAnalyses();
+                        ProjectAnalysesFunktion();
                     }
                     else
                     {

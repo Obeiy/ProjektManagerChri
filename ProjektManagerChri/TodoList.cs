@@ -3,18 +3,18 @@
 public class TodoList : Hub
 {
     //TodoList var
-    string taskmChoice;
-    string taskOne ="";
-    string taskTwo = "";
-    string taskThree = "";
-    string taskFour = "";
-    string taskFive = "";
-    string taskChoice;
-    string deleteTask;
-    int taskStatus = 0;
-    int taskCount = 0;
+   static string taskmChoice;
+ static  string taskOne ="";
+  static  string taskTwo = "";
+  static  string taskThree = "";
+  static  string taskFour = "";
+  static  string taskFive = "";
+  static  string taskChoice;
+   static string deleteTask;
+ static   int taskStatus = 0;
+  static  int taskCount = 0;
     
-    void TodoListFunktion()
+   public static void TodoListFunktion()
 {
     Console.Clear();
  

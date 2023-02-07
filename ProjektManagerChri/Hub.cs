@@ -5,9 +5,9 @@
 public class Hub 
 {
     //Hub var
-    string hubChoice;
+  static  string hubChoice;
     
-   public void HubFunktion()
+  public static void HubFunktion()
     {
         Console.Clear();
         Console.WriteLine("Loading Hub ");
@@ -33,21 +33,21 @@ public class Hub
         Console.WriteLine("");
         hubChoice = Console.ReadLine();
         
-        // if (hubChoice == "1")
-        // {
-        //     
-        // }
-        // if (hubChoice == "2")
-        // {
-        //     ProjectAnalyses();
-        // }
-        // if (hubChoice == "3")
-        // {
-        //     SolutionTable();
-        // }
-        // if (hubChoice == "4")
-        // {
-        //     Exit();
-        // }
+        if (hubChoice == "1")
+        {
+            TodoList.TodoListFunktion();
+        }
+        if (hubChoice == "2")
+        {
+            ProdjectAnalyses.ProjectAnalysesFunktion();
+        }
+        if (hubChoice == "3")
+        {
+            Solution_Table.SolutionTableFunktion();
+        }
+        if (hubChoice == "4")
+        {
+           Exit.ExitFunktion();
+        }
     }
 }

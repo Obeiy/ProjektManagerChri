@@ -4,16 +4,16 @@ public class Solution_Table : Hub
 {
     
     //problem var
-    string problemChoice;
-    string problemOne ="";
-    string problemTwo = "";
-    string problemThree = "";
-    string problemOFour = "";
-    string problemFive = "";
-    string solutionChoice;
-    string deleteChoice;
+   static string problemChoice;
+  static  string problemOne ="";
+  static  string problemTwo = "";
+  static  string problemThree = "";
+  static  string problemOFour = "";
+  static  string problemFive = "";
+  static  string solutionChoice;
+  static  string deleteChoice;
     
-    void SolutionTable()
+   public static void SolutionTableFunktion()
 {
     Console.Clear();
     Console.WriteLine("Loading Solution-table");
@@ -97,7 +97,7 @@ public class Solution_Table : Hub
         solutionChoice = Console.ReadLine();
         if (solutionChoice == "1")
         {
-        SolutionTable();
+        SolutionTableFunktion();
         }
         else
         {
@@ -111,7 +111,7 @@ public class Solution_Table : Hub
         if (string.IsNullOrEmpty(problemOne)) //p1
         {
             problemOne = Console.ReadLine();
-            SolutionTable();
+            SolutionTableFunktion();
         }
         else
         {
@@ -119,28 +119,28 @@ public class Solution_Table : Hub
         if (string.IsNullOrEmpty(problemTwo))// p2
         {
             problemTwo = Console.ReadLine();
-            SolutionTable();
+            SolutionTableFunktion();
         }
         else
         { 
             if (string.IsNullOrEmpty(problemThree)) //p3
             {
                 problemThree = Console.ReadLine();
-                SolutionTable();;
+                SolutionTableFunktion();;
             }
             else
             {
                  if (string.IsNullOrEmpty(problemOFour))
                         {
                             problemOFour = Console.ReadLine();
-                            SolutionTable();;
+                            SolutionTableFunktion();;
                         }
                         else
                         {
                              if (string.IsNullOrEmpty(problemFive))
                                    {
                                        problemFive = Console.ReadLine();
-                                       SolutionTable();;
+                                       SolutionTableFunktion();;
                                    }
                                    else
                                    {
@@ -152,7 +152,7 @@ public class Solution_Table : Hub
                                        Console.Write("..");
                                        Thread.Sleep(500);
                                        Console.Write("...");
-                                       SolutionTable();
+                                       SolutionTableFunktion();
                                        
                                    }
                 
@@ -185,7 +185,7 @@ Console.ResetColor();
             Console.Write("..");
             Thread.Sleep(500);
             Console.Write("...");
-            SolutionTable();
+            SolutionTableFunktion();
         }
         else
         {

@@ -2,23 +2,23 @@
 
 public class Login : Hub
 {
-    string username = "";
-    string password = "";
-    bool login = false;
-    int loginCount = 0;
+  static  string username = "";
+   static string password = "";
+   static bool login = false;
+   static int loginCount = 0;
 
 //timer var 
-    int milliseconds = 1000;
-    int timer = 5;
+  static  int milliseconds = 1000;
+  static  int timer = 5;
     
 
 
 
 // Element 0 Login 
-public void LoginFunktion(){
+public static void LoginFunktion(){
     
     
-    LoginFunktion();
+    
     while (!login)
     {
         if (loginCount > 2)

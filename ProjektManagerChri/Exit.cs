@@ -3,9 +3,9 @@
 public class Exit : Hub
 {
     //exit var
-    string exit;
+   static string exit;
     
-    void ExitFunktion()
+ public  static void  ExitFunktion()
     {
         Console.Clear();
         Console.WriteLine("Loading Exit");
