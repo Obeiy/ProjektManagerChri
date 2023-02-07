@@ -1,0 +1,15 @@
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\bin\Debug\net6.0\ProjektManagerChri.exe
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\bin\Debug\net6.0\ProjektManagerChri.deps.json
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\bin\Debug\net6.0\ProjektManagerChri.runtimeconfig.json
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\bin\Debug\net6.0\ProjektManagerChri.dll
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\bin\Debug\net6.0\ref\ProjektManagerChri.dll
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\bin\Debug\net6.0\ProjektManagerChri.pdb
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.AssemblyInfoInputs.cache
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.AssemblyInfo.cs
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.dll
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ref\ProjektManagerChri.dll
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.pdb
+C:\Users\chris\OneDrive\Dokumente\GitHub\ProjektManagerChri\ProjektManagerChri\obj\Debug\net6.0\ProjektManagerChri.genruntimeconfig.cache
